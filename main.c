@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int num1[101];
-int num2[101];
+int num1[100000001];
+int num2[100000001];
 int res[21];
 
 void GetDiffIsMaxNum1(int len1) {
