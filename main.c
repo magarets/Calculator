@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int num1[24];
-int num2[24];
-int res[21];
+int num1[10000001];
+int num2[10000001];
+int res[10000001];
 
 void GetDiffIsMaxNum1(int len1) {
     for(int i = 0; i < len1; ++i) {
@@ -97,8 +97,8 @@ int main() {
     int max;
     int flag;
 
-    char str1[21];
-    char str2[21];
+    char str1[1000001];
+    char str2[1000001];
 
     scanf("%s %s", str1, str2);
 
